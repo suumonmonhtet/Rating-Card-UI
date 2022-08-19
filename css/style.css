@@ -1,0 +1,149 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    background:  #101820FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.star{
+    border-radius: 70px;
+    background-color: #101820FF;
+    width: 40px;
+    height: 40px;
+    padding: 4px;
+    padding-left: 1px;
+           
+}
+.star i{
+    color: #FEE715FF;
+    padding: 7px;
+    padding-top: 10px;
+}
+.card{
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 420px;
+    height: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+           
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
+.ratingcard{           
+    padding: 10px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+.ratinglist{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0px;
+    background:  #FEE715FF ;
+    color: #101820FF;
+    font-size: 20px;
+    font-family: monospace;
+}
+.ratinglist:hover{
+    color:  #FEE715FF ;
+    background: #101820FF;
+}
+.ratinglist:focus{
+    color:  black;
+    background: grey;
+}
+.submit{
+    display: block;
+    cursor: pointer;
+    margin-top: 15px;           
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    border: 0px;
+    color:  #FEE715FF ;
+    background: #101820FF;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: monospace;
+}
+.submit:hover{
+    background:  #FEE715FF ;
+    color: #101820FF;
+}
+.submit:focus{
+    color:  black;
+    background: grey;
+}
+.thankyou{           
+    display: none;
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 420px;
+    height: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+}
+.ratingtext{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 20px;
+           
+}
+.thankyoubg{
+    background: rgba(254, 231, 21, 0.8);
+    border-radius: 10px;
+    height: 190px;
+    padding: 10px;
+        }
+       
+.thankyoutext{
+    margin-top: 10px;
+    line-height: 25px;
+}
+.gift{
+    padding: 20px;
+    margin-left: 160px;
+    color: #101820FF;
+}
+.selectedno{
+    font-style: italic;           
+    font-weight: bold;
+}
+.link{
+    background: rgba(254, 231, 21, 0.7);
+    width: 40px;
+    height: 40px;         
+    border-radius: 30px;
+    border: none;
+}
+.click{
+    border: none;
+    display: block;
+    width: 40px;
+    height: 30px;
+    background-color: #101820FF;
+    color: #FEE715FF;
+    border-radius: 50px;   
+    margin-top: -20px;     
+    margin-left: 370px;
+}   
+.click:hover{
+    color: #101820FF;
+    background-color: #FEE715FF; 
+    
+}    
